@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+<title>yup</title>
+</head>
+
+<body>
+	<h1>Registry Form</h1>
+	<ul>
+		<li>Home</li>
+		<li>About the site</li>
+		<li>Registry</li>
+		<li>Contact</li>
+		<li>Copyright</li>
+	</ul>
+	<form>
+		<fieldset>
+			<legend>New Account Registry</legend>
+			<p>Your information is safe with us.</p>
+			<label for="cpName">Complete Name</label>
+			<div>
+			<input type="text" id="cpName"/>
+			</div>
+
+			<label for="mail">Email</label>
+			<div>
+			<input type="email" id="mail"/>
+			</div>
+			
+			<label for="pass">Password</label>
+			<div>
+			<input type="password" id="pass"/>
+			</div>
+
+			<label for="passC">Password Confirmation</label>
+			<div>
+			<input type="password" id="passC"/>
+			</div>
+
+			<label for="pais">Country</label>
+			<div>
+			<select id="pais">
+				<option value="MX">Mexico</option>
+				<option value="USA">Estados Unidos</option>
+			</select>
+			</div>
+
+			<div>
+				<div>
+				<input type="radio" name="gen" id="masc"/>
+				<label for="masc">Masculine</label>
+				</div>
+
+				<div>
+				<input type="radio" name="gen" id="fem"/>
+				<label for="fem">Femenine</label>
+				</div>
+			</div>
+			<input type="submit" value="Cancel"/>
+			<input type="submit" value="Submit"/>
+		</fieldset>
+	</form>
+</body>
+
+</html>
